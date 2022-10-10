@@ -235,12 +235,12 @@ img {
 }
 
 a {
-    color: #ff594f;
+    color: rgb(0, 132, 255);
 }
 
 a:hover {
     text-decoration: line-through;
-    color: #ff594f;
+    color: rgb(0, 132, 255);
 }
 
 a:focus {
@@ -323,12 +323,12 @@ hr {
 }
 
 .md-btn--primary {
-    background-color: #ff594f;
+    background-color: rgb(0, 132, 255);
     color: #fff;
 }
 
 .md-btn--primary:hover {
-    background-color: rgba(255, 89, 79, .8);
+    background-color: rgb(0, 132, 255);
     color: #fff;
 }
 
@@ -399,32 +399,32 @@ hr {
 
 .md-btn--link {
     background-color: transparent;
-    color: #fe6565;
+    color: rgb(0, 132, 255);
 }
 
 .md-btn--link:hover {
     background-color: transparent;
-    color: #fe6565;
+    color: rgb(0, 132, 255);
     text-decoration: underline;
 }
 
 .md-btn--link:focus {
     background-color: transparent;
-    color: #fe6565;
+    color: rgb(0, 132, 255);
 }
 
 .md-btn--dark {
-    background-color: #000;
+    background-color: rgb(0, 132, 255);
     color: #fff;
 }
 
 .md-btn--dark:hover {
-    background-color: #fe6565;
+    background-color: rgb(0, 132, 255);
     color: #fff;
 }
 
 .md-btn--dark:focus {
-    background-color: #fe6565;
+    background-color: rgb(0, 132, 255);
     color: #fff;
 }
 
@@ -475,11 +475,12 @@ hr {
 
 .md-btn--outline-primary {
     background-color: transparent;
+    color: rgb(0, 132, 255);
 }
 
 .md-btn--outline-primary:hover {
-    background-color: #ff594f;
-    border-color: #ff594f;
+    background-color:rgb(0, 132, 255);
+    border-color: rgb(0, 132, 255);
     color: #fff;
 }
 
@@ -695,7 +696,7 @@ abbr {
 }
 
 mark, .mark {
-    background-color: #ff594f;
+    background-color: rgb(0, 132, 255);
     color: #fff;
 }
 
@@ -772,8 +773,8 @@ ul {
     line-height: 40px;
     border-radius: 50%;
     text-align: center;
-    border: 1px solid #ff594f;
-    color: #ff594f;
+    border: 1px solid rgb(0, 132, 255);
+    color: rgb(0, 132, 255);
     font-size: 20px;
 }
 
@@ -956,7 +957,7 @@ ul {
 }
 
 .overlay-menu ul li.active > a, .overlay-menu ul li a:hover {
-    color: #ff594f;
+    color: rgb(0, 132, 255);
     text-decoration: line-through;
 }
 
@@ -2047,7 +2048,7 @@ ul {
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
-    color: #ff594f;
+    color: rgb(0, 132, 255);
     margin-bottom: 0;
 }
 
@@ -2155,7 +2156,7 @@ ul {
 
 .progress__bar {
     position: absolute;
-    background-color: #ff594f;
+    background-color: rgb(0, 132, 255);
     left: 0;
     top: 0;
     bottom: 0;
@@ -2188,15 +2189,15 @@ ul {
     height: 30px;
     line-height: 30px;
     font-size: 12px;
-    color: #333;
+    color: rgb(0, 132, 255);
     text-align: center;
-    border: 1px solid #ebebeb;
+    border: 1px solid rgb(0, 132, 255);
     transition: all .3s ease;
 }
 
 .social-icon:hover {
-    border-color: #ff594f;
-    background-color: #ff594f;
+    border-color: rgb(0, 132, 255);
+    background-color: rgb(0, 132, 255);
     color: #fff;
 }
 
@@ -2217,6 +2218,7 @@ ul {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 0;
+    color: rgb(0, 132, 255);
 }
 
 /* 17. typing
@@ -2341,6 +2343,7 @@ ul {
 
 .work__text {
     font-size: 14px;
+    color: rgb(0, 132, 255);
 }
 
 @media (min-width: 993px) {

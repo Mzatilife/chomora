@@ -24,6 +24,10 @@
 		#more1 {
 			display: none;
 		}
+
+		.bg-photo {
+			background: url('./assets/img/bg.jpg');
+		}
 	</style>
 </head>
 
@@ -36,12 +40,12 @@
 		<div class="wil-content">
 
 			<!-- Section -->
-			<section class="awe-section">
+			<section class="awe-section bg-photo">
 				<div class="container">
 
 					<!-- page-title -->
 					<div class="page-title pb-40">
-						<h2 class="page-title__title">About me</h2>
+						<h2 class="page-title__title" style="color: #E0E1E4;">About me</h2>
 						<p class="page-title__text">Know more about me, on paper. Get to know me, in person.</p>
 						<div class="page-title__divider"></div>
 					</div><!-- End / page-title -->

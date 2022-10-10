@@ -29,6 +29,11 @@ if (isset($_GET['project_id'])) {
 	<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<![endif]-->
+	<style>
+		.bg-photo {
+			background: url('./assets/img/bg.jpg');
+		}
+	</style>
 </head>
 
 <body>
@@ -40,12 +45,12 @@ if (isset($_GET['project_id'])) {
 		<div class="wil-content">
 
 			<!-- Section -->
-			<section class="awe-section">
+			<section class="awe-section bg-photo">
 				<div class="container">
 
 					<!-- page-title -->
 					<div class="page-title pb-40">
-						<h2 class="page-title__title">See what I do</h2>
+						<h2 class="page-title__title" style="color: #E0E1E4;">See what I do</h2>
 						<p class="page-title__text">Building a legacy through CHANGE. </p>
 						<div class="page-title__divider"></div>
 					</div><!-- End / page-title -->

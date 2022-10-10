@@ -2,7 +2,7 @@
 <header class="header header--fixed">
     <div class="header__inner">
         <div class="header__logo"><a href="index.php">
-                <h4>chomora</h4>
+                <h4 style="color:rgb(0, 132, 255);">Chomora</h4>
             </a></div>
         <div class="navbar-toggle" id="fs-button">
             <div class="navbar-icon"><span></span></div>
@@ -26,6 +26,8 @@
                 <li><a href="blog.php">Blog</a>
                 </li>
                 <li><a href="contact.php">Contact</a>
+                </li>
+                <li><a href="./admin/">Login</a>
                 </li>
             </ul><!--  -->
 

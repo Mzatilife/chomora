@@ -31,6 +31,11 @@ if (isset($_GET['blog_id'])) {
 	<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<![endif]-->
+	<style>
+		.bg-photo {
+			background: url('./assets/img/bg.jpg');
+		}
+	</style>
 </head>
 
 <body>
@@ -42,13 +47,13 @@ if (isset($_GET['blog_id'])) {
 		<div class="wil-content">
 
 			<!-- Section -->
-			<section class="awe-section">
+			<section class="awe-section bg-photo">
 				<div class="container">
 
 					<!-- page-title -->
 					<div class="page-title pb-40">
-						<h2 class="page-title__title">I write</h2>
-						<p class="page-title__text">Sed ante nisl, fermentum et facilisis in</p>
+						<h2 class="page-title__title" style="color: #E0E1E4;">I write</h2>
+						<p class="page-title__text">The historian records, but a writer creates</p>
 						<div class="page-title__divider"></div>
 					</div><!-- End / page-title -->
 

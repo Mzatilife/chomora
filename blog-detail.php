@@ -57,6 +57,11 @@ if (isset($_POST['comment'])) {
 	<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<![endif]-->
+	<style>
+		.bg-photo {
+			background: url('./assets/img/bg.jpg');
+		}
+	</style>
 </head>
 
 <body>
@@ -68,14 +73,14 @@ if (isset($_POST['comment'])) {
 		<div class="wil-content">
 
 			<!-- Section -->
-			<section class="awe-section">
+			<section class="awe-section bg-photo">
 				<div class="container">
 
 					<!-- page-title -->
 					<div class="page-title pb-40">
 						<span class="post-detail__cat"><?php echo $row['category_name'] ?></span>
-						<h2 class="page-title__title"><?php echo $row['title'] ?></h2>
-						<div class="post-detail__meta"><span class="date"><?php echo date("M d, Y", $date) ?></span><span class="author"><a href="#">by <?php echo $row['author'] ?></a></span></div>
+						<h2 class="page-title__title" style="color: #E0E1E4;"><?php echo $row['title'] ?></h2>
+						<div class="post-detail__meta"><span class="date" style="color: #E0E1E4;"><?php echo date("M d, Y", $date) ?></span><span class="author"><a href="#">by <?php echo $row['author'] ?></a></span></div>
 						<div class="page-title__divider"></div>
 					</div><!-- End / page-title -->
 
@@ -96,43 +101,21 @@ if (isset($_POST['comment'])) {
 								<?php echo $row['content'] ?>
 							</div>
 						</div>
-						<!-- <div class="sharebox__module">
-							<p class="social-text">share this article</p>
-
-							social-icon -->
-							<a class="social-icon" href="#"><i class="social-icon__icon fa fa-facebook"></i>
-							</a><!-- End / social-icon -->
-
-
-							<!-- social-icon -->
-							<a class="social-icon" href="#"><i class="social-icon__icon fa fa-twitter"></i>
-							</a><!-- End / social-icon -->
-
-
-							<!-- social-icon -->
-							<a class="social-icon" href="#"><i class="social-icon__icon fa fa-linkedin"></i>
-							</a><!-- End / social-icon -->
-
-
-							<!-- social-icon -->
-							<a class="social-icon" href="#"><i class="social-icon__icon fa fa-instagram"></i>
-							</a><!-- End / social-icon -->
-
-						</div> 
-					</div><!-- End /  -->
-
-					<div class="awe-text-center mt-50">
-						<a class="md-btn md-btn--outline-primary " href="blog.php">All blog content
-						</a>
 					</div>
+				</div><!-- End /  -->
+
+				<div class="awe-text-center mt-50">
+					<a class="md-btn md-btn--outline-primary " href="blog.php">All blog content
+					</a>
 				</div>
-			</section>
-			<!-- End / Section -->
-
 		</div>
-		<!-- End / Content-->
+		</section>
+		<!-- End / Section -->
 
-		<?php include "./includes/footer.php"; ?>
+	</div>
+	<!-- End / Content-->
+
+	<?php include "./includes/footer.php"; ?>
 
 	</div>
 	<!-- Vendors-->

@@ -31,6 +31,11 @@ $edate = strtotime($row['end_date']);
 	<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<![endif]-->
+	<style>
+		.bg-photo {
+			background: url('./assets/img/bg.jpg');
+		}
+	</style>
 </head>
 
 <body>
@@ -42,16 +47,16 @@ $edate = strtotime($row['end_date']);
 		<div class="wil-content">
 
 			<!-- Section -->
-			<section class="awe-section">
+			<section class="awe-section bg-photo">
 				<div class="container">
 
 					<!-- page-title -->
 					<div class="page-title pb-40">
-						<h2 class="page-title__title">
+						<h2 class="page-title__title" style="color: #E0E1E4;">
 							<?php echo $row['title'] ?>
 						</h2>
-						<p class="page-title__text"><b><?php echo date("d M Y", $sdate); ?></b> to <b><?php echo date("d M Y", $edate); ?></b></p>
-						<p class="page-title__text"><b>by <?php echo $row['author'] ?></b></p>
+						<p class="page-title__text" style="color: #E0E1E4;"><b><?php echo date("d M Y", $sdate); ?></b> to <b><?php echo date("d M Y", $edate); ?></b></p>
+						<p class="page-title__text" style="color: #E0E1E4;"><b>by <?php echo $row['author'] ?></b></p>
 						<div class="page-title__divider"></div>
 					</div><!-- End / page-title -->
 
@@ -72,30 +77,30 @@ $edate = strtotime($row['end_date']);
 							<div class="work-img"><img src="./img/project/<?php echo $row['image'] ?>" alt=""></div>
 						</div>
 						<!-- <div class="sharebox__module awe-text-center"> -->
-							<!-- <p class="social-text">SHARE THIS WORK</p> -->
+						<!-- <p class="social-text">SHARE THIS WORK</p> -->
 
-							<!-- social-icon -->
-							<!-- <a class="social-icon" href="#"><i class="social-icon__icon fa fa-facebook"></i> -->
-							<!-- </a> -->
-							<!-- End / social-icon -->
-
-
-							<!-- social-icon -->
-							<!-- <a class="social-icon" href="#"><i class="social-icon__icon fa fa-twitter"></i> -->
-							<!-- </a> -->
-							<!-- End / social-icon -->
+						<!-- social-icon -->
+						<!-- <a class="social-icon" href="#"><i class="social-icon__icon fa fa-facebook"></i> -->
+						<!-- </a> -->
+						<!-- End / social-icon -->
 
 
-							<!-- social-icon -->
-							<!-- <a class="social-icon" href="#"><i class="social-icon__icon fa fa-linkedin"></i> -->
-							<!-- </a> -->
-							<!-- End / social-icon -->
+						<!-- social-icon -->
+						<!-- <a class="social-icon" href="#"><i class="social-icon__icon fa fa-twitter"></i> -->
+						<!-- </a> -->
+						<!-- End / social-icon -->
 
 
-							<!-- social-icon -->
-							<!-- <a class="social-icon" href="#"><i class="social-icon__icon fa fa-instagram"></i> -->
-							<!-- </a> -->
-							<!-- End / social-icon -->
+						<!-- social-icon -->
+						<!-- <a class="social-icon" href="#"><i class="social-icon__icon fa fa-linkedin"></i> -->
+						<!-- </a> -->
+						<!-- End / social-icon -->
+
+
+						<!-- social-icon -->
+						<!-- <a class="social-icon" href="#"><i class="social-icon__icon fa fa-instagram"></i> -->
+						<!-- </a> -->
+						<!-- End / social-icon -->
 
 						<!-- </div> -->
 					</div><!-- End /  -->

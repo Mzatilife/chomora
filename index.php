@@ -27,9 +27,9 @@ if (isset($_GET['project_id'])) {
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,700">
 	<link rel="stylesheet" type="text/css" id="app-stylesheet" href="assets/css/main.css">
 	<style>
-		.bg-photo::after {
-			background: url('./assets/img/banner.jpg') left top no-repeat;
-			opacity: 0.5;
+		.bg-photo {
+			background: url('./assets/img/bg.jpg');
+			/* opacity: 0.5; */
 		}
 	</style>
 	<!--[if lt IE 9]>
@@ -46,17 +46,18 @@ if (isset($_GET['project_id'])) {
 		<div class="wil-content">
 
 			<!-- Section -->
-			<section class="awe-section">
-				<div class="container bg-photo">
+			<section class="awe-section bg-photo">
+				<div class="container">
 
 					<!-- page-title -->
 					<div class="page-title">
-						<h2 class="page-title__title">Hello, I am Chomora Mikeka.<br>I
+						<h2 class="page-title__title" style="color: #E0E1E4;">Hello, I am Chomora Mikeka.<br>I
 
 							<!-- typing__module -->
 							<div class="typing__module">
 								<div class="typed-strings"><span>'m an Associate Professor of Physics</span>
-								</div><span class="typed"></span>
+								</div>
+								<span style="font-size: 30px;" class="typed"></span>
 							</div><!-- End / typing__module -->
 
 						</h2>
@@ -107,7 +108,8 @@ if (isset($_GET['project_id'])) {
 
 														<!-- hb_back -->
 														<div class="hb_back">
-															<h2 class="work__title"><?php echo $rw['title'] ?>...</h2><a href="./index.php?project_id=<?php echo $rw['project_id'] ?>"><span class="work__text">View details</span></a>
+															<h2 class="work__title"><?php echo $rw['title'] ?></h2>
+															<a href="./index.php?project_id=<?php echo $rw['project_id'] ?>"><span class="work__text">View details</span></a>
 														</div><!-- End / hb_back -->
 
 													</div><!-- End / hoverbox ef-slide-top -->
