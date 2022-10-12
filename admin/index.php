@@ -78,7 +78,7 @@ if (isset($_POST['login'])) {
         <button class="btn btn-lg btn-secondary btn-block text-white" type="submit" name="login">Let me in</button>
         <div class="checkbox mb-3">
           <a href="forgot_password.php">forgot Password?</a><br>
-          <a href="register.php">Don't have an account, register?</a>
+           <!-- <a href="register.php">Don't have an account, register?</a> -->
         </div>
         <p class="mt-5 mb-3 text-muted">
           Copyright &copy;<script>
