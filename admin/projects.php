@@ -171,6 +171,7 @@ if (isset($_GET['del_id'])) {
     <script>
         $('#dataTable-1').DataTable({
             autoWidth: true,
+            responsive: true,
             "lengthMenu": [
                 [16, 32, 64, -1],
                 [16, 32, 64, "All"]
