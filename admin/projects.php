@@ -91,7 +91,7 @@ if (isset($_GET['del_id'])) {
                                         <?php } else {
                                         } ?>
                                         <!-- table -->
-                                        <table class="table datatables" id="dataTable-1">
+                                        <table class="table datatables dt-responsive" id="dataTable-1">
                                             <thead>
                                                 <tr>
                                                     <th>#</th>
