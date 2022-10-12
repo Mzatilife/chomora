@@ -217,7 +217,21 @@ if (isset($_POST['submit'])) {
     <script>
         ClassicEditor
             .create(document.querySelector('#edit'), {
-                // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
+                toolbar: {
+                    items: [
+                        'heading', '|',
+                        'fontfamily', 'fontsize', '|',
+                        'alignment', '|',
+                        'fontColor', 'fontBackgroundColor', '|',
+                        'bold', 'italic', 'strikethrough', 'underline', 'subscript', 'superscript', '|',
+                        'link', '|',
+                        'outdent', 'indent', '|',
+                        'bulletedList', 'numberedList', 'todoList', '|',
+                        'code', 'codeBlock', '|',
+                        'insertTable', 'blockQuote', '|',
+                        'undo', 'redo'
+                    ]
+                }
             })
             .then(editor => {
                 window.editor = editor;
@@ -439,6 +453,12 @@ if (isset($_POST['submit'])) {
         }
         gtag('js', new Date());
         gtag('config', 'UA-56159088-1');
+    </script>
+    <script type="application/javascript">
+        $('input[type="file"]').change(function(e) {
+            var fileName = e.target.files[0].name;
+            $('.custom-file-label').html(fileName);
+        });
     </script>
 </body>
 
