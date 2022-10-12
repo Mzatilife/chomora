@@ -51,11 +51,11 @@ if (isset($_GET['project_id'])) {
 
 					<!-- page-title -->
 					<div class="page-title">
-						<h2 class="page-title__title" style="color: #E0E1E4;">Hello, I am Chomora Mikeka.<br>I
+						<h2 class="page-title__title" style="color: #E0E1E4;">Hello, I am Chomora Mikeka.<br>
 
 							<!-- typing__module -->
 							<div class="typing__module">
-								<div class="typed-strings"><span>'m an Associate Professor of Physics</span>
+								<div class="typed-strings"><span>I'm an Associate Professor of Physics</span>
 								</div>
 								<span style="font-size: 30px;" class="typed"></span>
 							</div><!-- End / typing__module -->
